@@ -1,0 +1,83 @@
+{
+  "easy": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "options": ["90°C", "100°C", "110°C", "120°C"],
+      "answer": "100°C"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "4"
+    }
+  ],
+  "medium": [
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": [
+        "Harper Lee",
+        "Mark Twain",
+        "Ernest Hemingway",
+        "F. Scott Fitzgerald"
+      ],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "What is the chemical symbol for Gold?",
+      "options": ["Au", "Ag", "Pb", "Fe"],
+      "answer": "Au"
+    },
+    {
+      "question": "Which country is the largest by area?",
+      "options": ["Canada", "Russia", "China", "USA"],
+      "answer": "Russia"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Claude Monet"
+      ],
+      "answer": "Leonardo da Vinci"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What is the derivative of sin(x)?",
+      "options": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+      "answer": "cos(x)"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "options": [
+        "Marie Curie",
+        "Alexander Fleming",
+        "Isaac Newton",
+        "Albert Einstein"
+      ],
+      "answer": "Alexander Fleming"
+    },
+    {
+      "question": "Which element has the atomic number 92?",
+      "options": ["Uranium", "Plutonium", "Lead", "Radium"],
+      "answer": "Uranium"
+    },
+    {
+      "question": "In which year did the Titanic sink?",
+      "options": ["1912", "1905", "1918", "1923"],
+      "answer": "1912"
+    }
+  ]
+}

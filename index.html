@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Advanced Quiz Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Advanced Quiz Game</h1>
+      <div id="difficulty-container">
+        <button class="difficulty-button" onclick="startQuiz('easy')">
+          Easy
+        </button>
+        <button class="difficulty-button" onclick="startQuiz('medium')">
+          Medium
+        </button>
+        <button class="difficulty-button" onclick="startQuiz('hard')">
+          Hard
+        </button>
+      </div>
+      <div id="quiz-container">
+        <div id="question"></div>
+        <div class="info-container">
+          <div id="question-count"></div>
+          <div id="timer">
+            Time left: <span id="timer-value">60</span> seconds
+          </div>
+        </div>
+        <div id="options"></div>
+        <button id="next-button">Next &rarr;</button>
+        <div id="result"></div>
+        <div id="leaderboard"></div>
+        <button id="play-again-button">&#x267B; Play Again</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
